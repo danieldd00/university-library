@@ -7,8 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "seed": "npx tsx database/seed.ts",
     "db:generate": "npx drizzle-kit generate",
-    "db:migrate": "npx drizzle-migrate migrate",
+    "db:migrate": "npx drizzle-kit migrate",
     "db:studio": "npx drizzle-kit studio"
   },
   "dependencies": {
@@ -23,6 +24,7 @@
     "bcryptjs": "^3.0.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "dayjs": "^1.11.13",
     "dotenv": "^16.5.0",
     "drizzle-orm": "^0.42.0",
     "eslint-plugin-tailwindcss": "^3.17.5",
@@ -33,6 +35,7 @@
     "next-auth": "^5.0.0-beta.26",
     "next-themes": "^0.4.6",
     "react": "^19.0.0",
+    "react-colorful": "^5.6.1",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.56.0",
     "sonner": "^2.0.3",
